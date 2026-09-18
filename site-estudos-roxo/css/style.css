@@ -57,3 +57,19 @@ footer strong{color:#fff}
 @media(max-width:768px){
   .hero{padding:55px 0}
 }
+.hero img,
+.bg-white img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+    .hero img,
+    .bg-white img {
+        height: 300px;
+    }
+}
